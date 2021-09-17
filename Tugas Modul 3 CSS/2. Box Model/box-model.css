@@ -1,0 +1,48 @@
+/* p {
+    color: #F3F4F6;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+p:hover {
+    color: #111827;
+}
+
+#daftar-siswa p:hover {
+    background-color: #E5E7EB;
+    color: #111827;
+}
+
+#daftar-siswa p {
+    background-color: gainsboro;
+}
+
+.siswa {
+    padding: 10px 15px;
+} */
+
+p {
+    color: #F3F4F6;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#daftar-siswa {
+    background-color: gainsboro;
+}
+
+#daftar-siswa :hover {
+    color: #111827;
+    background-color: #e5e7eb;
+}
+
+.siswa {
+    padding: 10px 15px;
+}
+
+p:hover {
+    color: #111827;
+}
