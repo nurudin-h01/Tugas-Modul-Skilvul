@@ -6,3 +6,6 @@ Link Screenshot Flex Froggy :
 Link Repl.it:
 <br>
 https://replit.com/@MuhammadNurudi1/Tugas-Modul-3#index.html
+<br>
+Link Netlify:
+https://agitated-lewin-3d8a45.netlify.app/
