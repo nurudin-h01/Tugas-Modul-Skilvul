@@ -1,0 +1,11 @@
+SET grade = n
+
+IF grade<68:
+   DISPLAY grade
+IF grade%5 == 3:
+   DISPLAY (grade+2)
+IF grade%5 == 4:
+   DISPLAY (grade+1)
+ELSE
+   DISPLAY grade
+

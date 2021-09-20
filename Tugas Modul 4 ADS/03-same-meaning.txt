@@ -1,0 +1,7 @@
+SET word = ""
+SET value = TRUE
+
+FOR (i=0; i< int(word.length)/2 ; i++)
+    IF sentence[i] != sentence[sentence.length - i -1]
+        set value = FALSE
+DISPLAY value

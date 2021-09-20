@@ -1,0 +1,10 @@
+SET n = 20
+For i = 1 -> i = n+1 , i++
+   IF i%3==0 AND i%5==0
+      DISPLAY "FizzBuzz"
+   IF i%3 = 0
+      DISPLAY "Fizz"
+   IF i%5 = 0
+      DISPLAY "Buzz"
+   ELSE
+      DISPLAY i

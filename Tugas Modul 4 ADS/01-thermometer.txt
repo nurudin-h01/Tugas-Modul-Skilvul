@@ -1,0 +1,13 @@
+SET besar = prompt()
+SET type = prompt()
+
+IF type == "fahrenheit"
+   CALCULATE fahrenheit = (besar-32) * (5/9)
+   DISPLAY fahrenheit
+ELSE IF type == "kelvin"
+   CALCULATE kelvin = (besar-273.15)
+   DISPLAY kelvin
+ELSE
+   DISPLAY besar	
+
+
