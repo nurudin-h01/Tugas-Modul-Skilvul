@@ -1,0 +1,11 @@
+1. git clone https://github.com/nurudin-h01/tech4impact-students-bio.git
+   cd tech4impact-students-bio
+2. git remote -v
+3. git branch muhammad-nurudin-hidayat
+4. git checkout muhammad-nurudin-hidayat
+5. touch muhammadnurudinhidayat.md
+6. code .
+7. git add muhammadnurudinhidayat.md
+8. git commit -m "add muhammadnurudinhidayat.md"
+9. git merge master
+9. git push origin muhammad-nurudin-hidayat
