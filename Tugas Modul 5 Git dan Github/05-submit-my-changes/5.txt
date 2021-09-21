@@ -8,4 +8,4 @@
 7. git add muhammadnurudinhidayat.md
 8. git commit -m "add muhammadnurudinhidayat.md"
 9. git merge master
-9. git push origin muhammad-nurudin-hidayat
+10 git push origin muhammad-nurudin-hidayat
