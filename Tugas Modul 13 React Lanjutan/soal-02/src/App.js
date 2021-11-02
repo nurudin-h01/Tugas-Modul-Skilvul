@@ -16,9 +16,9 @@ export default function App() {
   })
 
   const addToCart = (id) => {
-    const menu = menus.find((o) => o.id === id);
-    const cartById = cart.find((o) => o.id === id);
-    if (!cartById) {
+    const menu = menus.find((e) => e.id === id);
+    const cartId = cart.find((e) => e.id === id);
+    if (!cartId) {
       setCart([
         ...cart,
         {
@@ -34,21 +34,21 @@ export default function App() {
   };
 
   const decreaseCartAmount = (id) => {
-    const cartById = cart.find((o) => o.id === id);
-    cartById.amount = cartById.amount - 1;
-    const cartWithoutActiveId = cart.filter((o) => o.id !== id);
-    if (cartById.amount <= 0) {
-      setCart(cartWithoutActiveId);
+    const cartId = cart.find((e) => e.id === id);
+    const exceptCart = cart.filter((e) => e.id !== id);
+    cartId.amount = cartId.amount - 1;
+    if (cartId.amount <= 0) {
+      setCart(exceptCart);
     } else {
-      setCart([...cartWithoutActiveId, cartById]);
+      setCart([...exceptCart, cartId]);
     }
   };
 
   const increaseCartAmount = (id) => {
-    const cartById = cart.find((o) => o.id === id);
-    cartById.amount = cartById.amount + 1;
-    const cartWithoutActiveId = cart.filter((o) => o.id !== id);
-    setCart([...cartWithoutActiveId, cartById]);
+    const cartId = cart.find((e) => e.id === id);
+    const exceptCart = cart.filter((e) => e.id !== id);
+    cartId.amount = cartId.amount + 1;
+    setCart([...exceptCart, cartId]);
   };
 
   return (
