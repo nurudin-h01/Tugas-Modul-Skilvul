@@ -7,10 +7,10 @@ export const StyledButton = styled.button`
     font-size: 1.25em;
     border: ${props => props.outline? 'lightblue': 'white'} 1px solid;
     background-color:  ${props => props.outline? 'white': 'lightblue'};
-    width: ${props => props.fullWidth? '100%': 'auto'};
+    width: ${props => props.fullWidth!== null ? '100%': 'auto'};
     &:hover{
         border: ${props => props.outline? 'lightblue': 'cornflowerblue'} 1px solid;
-        background-color: ${props => props.outline? 'lightblue': 'cornflowerblue'};
+        background-color: ${props => props.outline? 'cornflowerblue': 'lightblue'};
         color: white;
     }
 

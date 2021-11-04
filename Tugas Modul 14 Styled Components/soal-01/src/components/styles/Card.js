@@ -7,11 +7,14 @@ export const CardContainer = styled.div`
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    margin: 5px;
 
 `
 
 export const CardImage = styled.img`
     width: 100%;
+    height: 450px;
+    object-fit: cover;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 `
@@ -25,6 +28,7 @@ export const CardPrice = styled.div`
     font-weight: 600;
     margin: 0;
     margin-bottom: 0.5em;
+    text-align: center;
 `
 
 export const CardProductName = styled.div`
@@ -32,6 +36,7 @@ export const CardProductName = styled.div`
     font-size: 1.25em;
     font-weight: 600;
     margin: 0;
+    text-align: center;
     margin-bottom: 0.5em;
     color: gray;
 `

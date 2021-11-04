@@ -26,7 +26,7 @@ const products = [
 export default function App() {
   return (
     <>
-  <h1>Soal - 01</h1>
+  <h1>Soal - 02</h1>
   <FlexContainer>
     {products.map(item => {
       return <Card data={item}>
