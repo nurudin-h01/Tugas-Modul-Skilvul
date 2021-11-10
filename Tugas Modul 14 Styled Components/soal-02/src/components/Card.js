@@ -5,7 +5,7 @@ import Button from './Button';
 
 const Card = (props) => {
   return (
-    <CardContainer width="500px">
+    <CardContainer width="400px">
       <CardImage src={props.data.imageUrl}/>
       <CardBody>
         <CardPrice>{props.data.price}</CardPrice>
